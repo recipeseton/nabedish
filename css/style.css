@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    display: block;
+    margin: 0px;
+    width: 101%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+
+.nav-link {
+    color: orange;
+    font-size: 15px;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.my-auto h5 {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.my-auto h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.content{
+    min-height: 80vh;
+}
+
+
+.store-logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.store-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+.about {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: oldlace;
+}
+
+.about h3 {
+    margin-bottom: 20px;
+    color: dimgrey;
+}
+
+.hosting h3 {
+    margin-bottom: 30px;
+    color: dimgrey;
+}
+
+.reasons h4 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.reasons p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.reasons {
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-60 { font-size: 60px; }
+.material-icons.white100 {color: whitesmoke;}
+
+.step-icon{
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-columns: 30% 40% 30%;
+    transition: background-color 0.5s ease;
+    background-color: orangered;
+    border-radius: 50%;
+    grid-row-gap: 2px;
+    grid-column-gap: 0px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.step-icon:hover{
+    background-color: darkorange;
+}
+
+.step-icon h4{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: whitesmoke;
+    justify-self: center;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.step-icon i{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.step-icon h5{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self:center;
+    color: whitesmoke;
+    align-self: flex-start;
+    
+}
+
+.footer-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+footer{
+    background-color: black;
+    width: 102%;
+    height: 200px;
+}
+
+footer h5{
+    color: silver;
+}
+
+footer a{
+    color: orangered;
+}
+
+footer a:hover{
+    color: darkorange;
+}
+
+
